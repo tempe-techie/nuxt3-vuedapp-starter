@@ -43,3 +43,7 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Hosting on Vercel (important)
+
+In settings (Build & Development Settings) override the build command to "npm run generate", otherwise you'll get a 500 error code.
